@@ -1,4 +1,5 @@
 use codeup_test_db;
+truncate albums;
 insert into albums (artist, name, release_date, sales, genre)
 values ('Michael Jackson', 'Thriller', '1982', '51.2', 'Pop, post-disco, funk, rock'),
        ('Whitney Houston', 'The Bodyguard', '1992', '28.7', 'R&B, soul, pop, soundtrack'),
